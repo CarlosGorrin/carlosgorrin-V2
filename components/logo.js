@@ -8,7 +8,7 @@ const LogoBox = styled.span`
   font-size: 18px;
   display: inline-flex;
   align-items: center;
-  height: 30px;
+  height: 40px;
   line-height: 20px;
   padding: 10px;
 
@@ -17,25 +17,25 @@ const LogoBox = styled.span`
   }
 
   &:hover img {
-    transform: rotate(20deg);
+    transform: rotate(90deg);
   }
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const tetrisIcon = `/images/tetris${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="logo" />
+          <Image src={tetrisIcon} width={30} height={30} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+            Carlos Gorrin Suarez
           </Text>
         </LogoBox>
       </a>
