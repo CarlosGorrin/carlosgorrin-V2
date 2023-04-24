@@ -87,7 +87,7 @@ const Home = () => (
       </Section>
 
       <Section delay={0.3}>
-      <Heading as="h3" variant="section-title">
+        <Heading as="h3" variant="section-title">
           Stack
         </Heading>
         <Paragraph>
@@ -123,7 +123,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://twitter.com/speedtetris" target="_blank">
               <Button
                 variant="ghost"
@@ -132,7 +132,7 @@ const Home = () => (
                 @speedtetris
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
         </List>
       </Section>
     </Container>
