@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -123,16 +123,6 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://twitter.com/speedtetris" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="green"
-                leftIcon={<IoLogoTwitter />}>
-                @speedtetris
-              </Button>
-            </Link>
-          </ListItem> */}
         </List>
       </Section>
     </Container>
