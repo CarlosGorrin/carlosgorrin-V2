@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Carlos Gorrin Suarez
+            Carlos Gonzalo Gorrin
           </Text>
         </LogoBox>
       </a>

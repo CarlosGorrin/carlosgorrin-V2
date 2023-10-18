@@ -52,6 +52,10 @@ const Bio = () => (
           Worked at Asap, focusing in the DPO Project, a marketplace for natural resources.
         </BioSection>
         <BioSection>
+          <BioYear>2023</BioYear>
+          Google Cybersecurity Professional Certificate
+        </BioSection>
+        <BioSection>
           <BioYear>2020 - present</BioYear>
           Working at Boreal IT. Developing the Homebanking for the client Banco Hipotecario.
         </BioSection>
@@ -61,15 +65,15 @@ const Bio = () => (
         <Heading as="h3" variant="section-title">
           Interest
         </Heading>
-        <Paragraph>
+        <Paragraph>Tech, Cybersecurity,{' '}
         <Link href="https://www.flickr.com/photos/cgorrin/albums" target="_blank">
-            Photography
+             Photography
           </Link>
           , Film, Music, Art,{' '}
           <Link href="https://www.deviantart.com/usingtheforce/gallery" target="_blank">
-           Design, Drawing
+           Graphic Design
           </Link>
-          , Tattoos, Tech, Watches, MMA, Motorsports
+          , Tattoos, Watches, MMA, Formula 1
         </Paragraph>
       </Section>
       
