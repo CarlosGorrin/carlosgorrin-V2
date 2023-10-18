@@ -54,7 +54,7 @@ const Home = () => (
             w="150px"
             h="150px"
             display="inline-block"
-            borderRadius="0"
+            borderRadius="5%"
             overflow="hidden">
             <ProfileImage
               src="/images/carlos.jpg"
