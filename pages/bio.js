@@ -2,7 +2,7 @@ import { Container, Heading, Link, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import { BioSection } from '../components/bio'
 
 const Bio = () => (
   <Layout title="Bio">
@@ -16,48 +16,37 @@ const Bio = () => (
           Timeline
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
           Born in Caracas, Venezuela.
         </BioSection>
         <BioSection>
-          <BioYear>2005</BioYear>
-          Started doing graphic and editorial design work.
+          Began my career doing graphic and editorial design work.
         </BioSection>
         <BioSection>
-          <BioYear>2007</BioYear>
           Completed a Bachelor&apos;s Degree in Graphic Design and Business Administration.
         </BioSection>
         <BioSection>
-          <BioYear>2009</BioYear>
           Moved to Buenos Aires, Argentina to attend Film School.
         </BioSection>
         <BioSection>
-          <BioYear>2014</BioYear>
-          Created a creative collective named Kinema Studio, centering  my attention on Graphic Design, Web, Photography, Shooting and Editing video.
+          Founded Kinema Studio, focusing on Graphic Design, Web, Photography, Shooting, and Editing video.
         </BioSection>
         <BioSection>
-          <BioYear>2015</BioYear>
-          Started Cool Roboten, focusing  in making custom websites for a wide variety of clients.
+          Started Cool Roboten, specializing in creating custom websites for a diverse clientele.
         </BioSection>
         <BioSection>
-          <BioYear>2016</BioYear>
-          Worked at Wunderman, with primary accounts in the USA and Canada, developing sites for Ford and Lincoln automobile manufacturers.
+          Joined Wunderman to develop sites for Ford and Lincoln in the USA and Canada.
         </BioSection>
         <BioSection>
-          <BioYear>2017</BioYear>
-          Worked at Lenovo&apos;s USA & Canada E-commerce.
+          Contributed to Lenovo&apos;s USA & Canada E-commerce operations.
         </BioSection>
         <BioSection>
-          <BioYear>2019</BioYear>
-          Worked at Asap, focusing in the DPO Project, a marketplace for natural resources.
+          Engaged in the DPO Project at Asap, a marketplace for natural resources.
         </BioSection>
         <BioSection>
-          <BioYear>2023</BioYear>
-          Google Cybersecurity Professional Certificate
+          Earned the Google Cybersecurity Professional Certificate.
         </BioSection>
         <BioSection>
-          <BioYear>2020 - present</BioYear>
-          Working at Boreal IT. Developing the Homebanking for the client Banco Hipotecario.
+          Currently at Banco Hipotecario (Mortgage Bank), leading and mentoring teams on various projects and features for Homebanking, with a focus on personal investments.
         </BioSection>
       </Section>
 

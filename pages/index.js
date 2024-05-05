@@ -54,7 +54,7 @@ const Home = () => (
             w="150px"
             h="150px"
             display="inline-block"
-            borderRadius="5%"
+            borderRadius="10%"
             overflow="hidden">
             <ProfileImage
               src="/images/carlos.jpg"
@@ -72,18 +72,16 @@ const Home = () => (
           Intro
         </Heading>
         <Paragraph>
-          I design and develop custom web apps with a focus on user experience, mobile compatibility, performance optimization and accessibility. I prioritize clean and reusable code.
+            I design and develop custom web apps with a focus on user experience, mobile compatibility, performance optimization, and accessibility. I prioritize clean and reusable code.
         </Paragraph>
         <Paragraph>
-          My work involves collaborating with clients and professionals worldwide. This global outlook has enriched my problem-solving skills and allowed me to create secure, innovative, and inclusive solutions for various projects.
+            My work involves collaborating with clients and professionals worldwide. This global outlook has enriched my problem-solving skills and allowed me to create secure, innovative, and inclusive solutions for various projects.
         </Paragraph>
         <Paragraph>
-          In recent years, I have a growing interest for cybersecurity, which expanded following the successful completion of the Google Cybersecurity Professional Certificate.
-          Currently based in Buenos Aires, Argentina.
+            In recent years, my interest in cybersecurity has grown, which expanded further following the successful completion of the Google Cybersecurity Professional Certificate. I continuously expand my technical toolkit, currently exploring emerging technologies such as cloud infrastructure (AWS, Azure), containerization (Docker, Kubernetes), and AI & machine learning frameworks (TensorFlow). Currently based in Buenos Aires, Argentina.
         </Paragraph>
-
         <Paragraph>
-          I am available for exciting projects of any size and complexity, whether you want to create a website, launch a brand, or improve your web app. Please feel free to contact me with your ideas.
+            I am available for exciting projects of any size and complexity, whether you want to create a website, launch a brand, or improve your web app. Please feel free to contact me with your ideas.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/work" passHref scroll={false}>
@@ -99,10 +97,10 @@ const Home = () => (
           Stack
         </Heading>
         <Paragraph>
-          Typescript, Javascript, Python, Angular, React, RXJS, HTML, CSS, SASS, Tailwind, Material, jQuery, Bootstrap, Git, SQL, JSON, API REST, Node.
+          Typescript, Javascript, Angular, React, Java, Python, SQL, Node, RXJS, HTML, CSS, SASS, Tailwind, Material, jQuery, Bootstrap, Git, JSON, API REST.
         </Paragraph>
         <Paragraph>
-          Also worked with React Native, Java, Spring Boot, Tealium, Adobe Test and Target, Blue Triangle, Freemarker, .NET, @razor and CMS like Wordpress and Hybris, Adobe Experience Manager and Sitecore.
+          Also worked with React Native, Spring Boot, Tealium, Adobe Test and Target, Blue Triangle, Freemarker, .NET, @razor, CMS like Wordpress and Hybris, Adobe Experience Manager and Sitecore.
         </Paragraph>
       </Section>
 

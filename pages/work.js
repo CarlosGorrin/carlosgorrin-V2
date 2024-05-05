@@ -33,15 +33,15 @@ const Work = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="homebanking" title="HomeBanking" thumbnail={thumbHomeBanking}>
-          Digital Platform for Hipotecario Bank
+          Digital Platform for Banco Hipotecario (Mortgage Bank)
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
             id="dpo"
-            title="Renewable Energy"
+            title="DPO Energy"
             thumbnail={thumbDpo}>
-            DPO Energy, a marketplace for renewable and alternative sources of energy
+            A marketplace for renewable and alternative sources of energy
           </WorkGridItem>
         </Section>
 
